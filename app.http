@@ -1,0 +1,21 @@
+curl -X POST "http://localhost:8000/signup/" -H "Content-Type: application/json" -d '{
+    "username": "tejaswi",
+    "password": "tejaswi123"
+}'
+
+###
+curl -X POST "http://localhost:8000/login/" -H "Content-Type: application/json" -d '{
+    "username": "tejaswi",
+    "password": "tejaswi123"
+}'
+
+###
+curl -X POST "http://localhost:8000/logout/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZWphc3dpIiwiZXhwIjoxNjkzNjY1NDUxfQ.ZqyKakfIKs6chmlPxps02c__mCGXz3DDql6opl1qCVk"
+
+###
+POST http://localhost:8000/signup/
+
+{
+    "username": "rty",
+    "password": "456"
+}
